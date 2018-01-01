@@ -1,3 +1,5 @@
 rootProject.name = 'template'
+include ':pushbots-react-native'
+project(':pushbots-react-native').projectDir = new File(rootProject.projectDir, '../node_modules/pushbots-react-native/android')
 
 include ':app'
